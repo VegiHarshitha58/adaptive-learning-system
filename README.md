@@ -52,9 +52,3 @@ Open "frontend/index.html" in browser
 - AI-based study recommendations
 
 ---
-
-🔗 Project Link
-
-(Add your deployed link later)
-
----
