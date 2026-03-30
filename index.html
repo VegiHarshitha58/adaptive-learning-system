@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adaptive Learning System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📘 Smart Study Planner</h1>
+
+<div class="card">
+    <input id="topicInput" placeholder="Enter topic">
+    
+    <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+    </select>
+
+    <select id="understanding">
+        <option value="good">Good</option>
+        <option value="average">Average</option>
+        <option value="bad">Bad</option>
+    </select>
+
+    <button onclick="addTopic()">Add</button>
+</div>
+
+<div class="card">
+    <h3>Topics</h3>
+    <ul id="topicList"></ul>
+
+    <button onclick="clearAll()">Clear All</button>
+</div>
+
+<div class="card">
+    <button onclick="generatePlan()">Generate Study Plan</button>
+    <h3>Today's Plan</h3>
+    <ul id="plan"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
